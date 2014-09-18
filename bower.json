@@ -23,8 +23,8 @@
     "preview.png"
   ],
   "dependencies": {
-    "polymer": "polymer/polymer#~0.3.1",
-    "marked": "~0.3.2",
-    "github-markdown-css": "~0.2.0"
+    "polymer": "polymer/polymer#>=0.3.1 <1.0.0",
+    "marked": ">=0.3.2",
+    "github-markdown-css": ">= 0.2.0"
   }
 }
