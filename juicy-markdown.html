@@ -63,6 +63,11 @@ Copyright 2014 Smörgåsbord Development. All rights reserved.
 					}						
 				};
 			},
+		
+      		ready: function() {
+      			if(!this.value)	
+        			this.value = this.textContent;
+      		},
 	      	valueChanged: function( oldValue, newValue) {
 
 				this.parseText( newValue );
